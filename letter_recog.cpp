@@ -733,7 +733,7 @@ int build_svm_classifier( char* data_filename, const char* filename_to_save, con
     return 0;
 }
 
-int main( int argc, char *argv[] )
+int main_( int argc, char *argv[] )
 {
     char* filename_to_save = 0;
     char* filename_to_load = 0;
